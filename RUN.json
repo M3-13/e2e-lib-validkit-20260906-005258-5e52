@@ -6,7 +6,8 @@
       "dir": ".",
       "stack": "python",
       "kind": "cli",
-      "install": [["${python}", "-m", "pip", "install", "-e", "."]]
+      "install": [["${python}", "-m", "pip", "install", "-e", "."]],
+      "start": ["${python}", "-m", "pytest"]
     }
   ]
 }
